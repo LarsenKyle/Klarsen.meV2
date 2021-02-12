@@ -1,7 +1,9 @@
 <template>
-  <div class="h-screen bg-primaryColor overflow-auto">
-   <Nav/>
-   <Button/>
+  <div class="bg-primaryColor overflow-visible">
+    <div class="fill bg-primaryColor"></div>
+    <Nav/>
+    <Cta />
+    <About/>
   </div>
 </template>
 
@@ -9,4 +11,8 @@
 export default {}
 </script>
 
-<style></style>
+<style>
+.fill{
+  height:103px
+}
+</style>
