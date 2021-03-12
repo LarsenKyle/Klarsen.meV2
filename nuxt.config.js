@@ -1,17 +1,21 @@
+const fontString = 'https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&display=swap'
 export default {
+  
   // Target: https://go.nuxtjs.dev/config-target
   target: 'static',
 
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    title: 'kyle-larsen',
+    title: 'Kyle Larsen',
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: '' }
+      { hid: 'description', name: 'description', content: 'Developer portfolio of Kyle Larsen' }
     ],
     link: [
-      { rel: 'icon', type: 'image/x-icon', href: '/logo.svg' }
+      { rel: 'icon', type: 'image/x-icon', href: '/logo.svg' },
+      { rel: 'preconnect', href: 'https://fonts.gstatic.com' },
+      { rel: 'stylesheet', href: fontString },
     ]
   },
 

@@ -1,6 +1,6 @@
 <template>
    <button
-        class="py-2 px-4 bg-primaryText text-purpleText font-semibold rounded-sm hover:bg-purpleText hover:text-primaryText transition ease-in duration-200 transform "
+        class="py-2 px-4 bg-lightest text-dark font-semibold rounded-sm hover:bg-dark hover:text-lightest transition ease-in duration-200 transform "
       >My Work</button>
 </template>
 

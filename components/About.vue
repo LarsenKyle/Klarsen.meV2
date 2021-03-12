@@ -1,30 +1,57 @@
 <template>
-  <main class="relative -mt-16">
-      <h2 class="ml-6 mt-4 md:ml-14 lg:ml-32 w-36 pb-4 text-primaryText text-4xl border-b-4 border-purpleText ">01.About</h2>
-      <div class="md:flex md:flex-row-reverse md:justify-end">
-        <div class="w-72 mt-6 m-auto lg:ml-32 relative 2xl:w-1/4 2xl:ml-80">
-          <img src="~/assets/images/about.jpg" class="rounded-full z-10 w-full relative" alt="headshot of Kyle Larsen in the mountains">
-          <img src="~/assets/images/circle.svg" class="rounded-full top-3 left-3  w-72 absolute 2xl:w-full" alt="decorative circle around headshot">
-        </div>
-        <div class="mt-8 m-auto text-primaryText text-lg w-5/6 md:w-5/12 2xl:text-3xl lg:ml-32 md:ml-14 md:mt-16 md:mr-1">
-          <p>I'm Kyle Larsen, and I'm based in Kalamzoo Michigan. As a freelance developer I enjoy creating clean, fast, simple to use websites and web applications. Delivering a great user experience is my primary goal.
+ <div class="md:flex mt-32" >
+    <div class="relative w-10/12 m-auto md:w-4/12  lg:mr-3 max">
+        <img src="~/assets/images/about.jpg" class=" relative rounded-full z-10 w-10/12 m-auto" alt="headshot of Kyle Larsen in the mountains">
+    </div>
+    <div class="m-auto w-10/12 my-14 text-primaryText relative md:w-4/12  lg:ml-1 max" >
+        <h2 class="text-3xl text-lightest mono-font mb-6">What I do...</h2>
+        <p class="text-lg">I'm Kyle Larsen, and I'm based in Kalamzoo Michigan. As a freelance developer I enjoy creating clean, fast, simple to use websites and web applications. Delivering a great user experience is my primary goal.
             JAM-stack and serverless architecture are my go to tools, they allow me to developer powerful applications quickly and skillfully. 
-          </p>
-          <p class="mt-4" >
-            When I'm not coding I love to be outside, running, hiking, or climbing!
-          </p>
-        </div>
-      </div>
-  </main>
+        </p>  
+    </div>
+ </div>
 </template>
 
 <script>
 export default {
-
+   
+   
 }
 </script>
 
-<style scoped >
-
-
+<style>
+.centered{
+    display: grid;
+    place-items: center;
+}
+.max{
+    max-width: 400px;
+}
+.high{
+    min-height: 70vh;
+}
+.overlay{
+    
+    position: relative;
+}
+.overlay::after{
+    content: '';
+    position: absolute;
+    width: 91.666667%;
+    height:100%;
+    background-color: #0b0011;
+    top: 0px;
+    left: 0px;
+    bottom: 0px;
+    right: 0px;
+    border-radius: 100%;
+    opacity: 0.75;
+    z-index: 20;
+    margin: 0 auto;
+    transition: all ease-in-out 0.25s;
+}
+.overlay:hover::after{
+    opacity: 0;
+    transition: all ease-in-out 0.25s;
+}
 </style>
