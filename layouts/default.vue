@@ -31,9 +31,6 @@ html {
   box-sizing: border-box;
   margin: 0;
 }
-body{
-  height: 100vh;
-  background-color:#0E2021;
-}
+
 
 </style>

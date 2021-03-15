@@ -1,13 +1,13 @@
 <template>
 <transition name="fade">
   <nav v-if="showNavbar" class="fancy-bg  flex fixed max-h-20 top-0 left-0 right-0 z-20 bg-dark" >
-    <img class="w-10 m-6 md:ml-12 lg:mt-6" src="~/assets/images/logo.svg" alt="Logo of small circles with a k in the middle">
+   <a href="#home"> <img class="relative z-30 w-10 m-6 md:ml-12 lg:mt-4" src="~/assets/images/logo.svg" alt="Logo of small circles with a k in the middle"></a>
     <!-- Desktop Nav -->
-    <div  class="ml-auto mt-8 mr-12 hidden text-lg text-primaryText md:flex ">
-      <p class="w-32"> <a href=""> <span class="text-secondaryColor" >00.</span>Home</a></p>
-      <p class="w-32"> <a href=""> <span class="text-secondaryColor" >01.</span>About</a></p>
-      <p class="w-32"> <a href=""> <span class="text-secondaryColor" >02.</span>Work</a></p>
-      <p class="w-32"> <a href=""> <span class="text-secondaryColor" >03.</span>Contact</a></p>
+    <div  class="ml-auto mt-8 mr-12 hidden text-lg text-primaryText md:flex relative z-30 ">
+    <a href="#about">   <p class="w-32"> <span class="text-lightest" >00.</span>About</p></a>
+      <p class="w-32"> <a href="#work"> <span class="text-lightest" >01.</span>Work</a></p>
+      <p class="w-32"> <a href="#contact"> <span class="text-lightest" >02.</span>Contact</a></p>
+      <p class="w-32"> <a target="_blank" href="/resume.pdf"> <span class="text-lightest" >03.</span>Resume</a></p>
     </div>
     <!-- Mobile Menu --> 
     <button @click="showMenu = !showMenu" class="ml-auto focus:outline-none md:hidden">
@@ -19,10 +19,10 @@
           <img class="mt-16 w-6" src="~/assets/images/close.svg" alt="close button">
         </button>
         <ul>
-          <a href="" ><li class="mt-16 h-24  place-self-center" ><span class="text-secondaryColor"> 00. </span>Home</li></a>
-          <a href="" ><li class="h-24" > <span class="text-secondaryColor"> 01. </span>About</li></a>
-          <a href="" ><li class="h-24" ><span class="text-secondaryColor"> 02. </span>Work</li></a>
-          <a href="" ><li class="h-24" ><span class="text-secondaryColor"> 03. </span>Contact</li></a>
+          <a href="#about" ><li class="mt-16 h-24  place-self-center" ><span class="text-lightest"> 00. </span>About</li></a>
+          <a href="" ><li class="h-24" > <span class="text-lightest"> 01. </span>Work</li></a>
+          <a href="" ><li class="h-24" ><span class="text-lightest"> 02. </span>Contact</li></a>
+          <a href="" ><li class="h-24" ><span class="text-lightest"> 03. </span>Resume</li></a>
         </ul>
         <img class="w-14 m-auto mt-3" src="~/assets/images/logo.svg" alt="Logo of small circles with a k in the middle">
       </div>

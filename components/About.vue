@@ -1,6 +1,6 @@
 <template>
- <div class="md:flex mt-32" >
-    <div class="relative w-10/12 m-auto md:w-4/12  lg:mr-3 max">
+ <div id="about" class="md:flex mt-32" >
+    <div  class="relative w-10/12 m-auto md:w-4/12  lg:mr-3 max">
         <img src="~/assets/images/about.jpg" class=" relative rounded-full z-10 w-10/12 m-auto" alt="headshot of Kyle Larsen in the mountains">
     </div>
     <div class="m-auto w-10/12 my-14 text-primaryText relative md:w-4/12  lg:ml-1 max" >

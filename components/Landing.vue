@@ -1,5 +1,5 @@
 <template>
-  <div  class="hero-bg h-screen centered">
+  <div id="home"  class="hero-bg h-screen centered">
     <div class="text-center mb-12 text-lightest text-2xl md:text-3xl">
       <h1 class="mb-12" >I'm Kyle</h1>
       <div  class="flex mb-4">

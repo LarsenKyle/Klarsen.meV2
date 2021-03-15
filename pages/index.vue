@@ -13,6 +13,7 @@
       <Tech/>
       <New/>
       <Work/>
+      <Contact/>
     </div>
     </transition>
   </div>
