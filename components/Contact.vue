@@ -4,18 +4,18 @@
     <form action="https://formspree.io/krlars87@gmail.com" method="POST" class="w-10/12 max-w-lg m-auto text-primaryText">
         <div class="flex flex-wrap -mx-3 mb-6">
             <div class="w-full px-3">
-            <label class="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2" for="grid-password">
+            <label class="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2" for="email">
                 E-mail
             </label>
-            <input v-model="email" class="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white focus:border-gray-500" id="email" type="email">
+            <input v-model="email" class="appearance-none block w-full bg-gray-200 text-dark border border-gray-200 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white focus:border-gray-500" id="email" type="email">
             </div>
         </div>
         <div class="flex flex-wrap -mx-3 mb-6">
             <div class="w-full px-3">
-            <label class="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2" for="grid-password">
+            <label class="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2" for="message">
                 Message
             </label>
-            <textarea v-model="text" class=" no-resize appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white focus:border-gray-500 h-48 resize-none" id="message"></textarea>
+            <textarea  v-model="text" class=" no-resize appearance-none block w-full bg-gray-200 text-dark border border-gray-200 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white focus:border-gray-500 h-48 resize-none" id="message"></textarea>
             </div>
         </div>
         <div class="grid place-items-end">
@@ -23,7 +23,7 @@
             <button
             type="submit"
             @submit="clear"
-            class="py-2 px-4  bg-lightest text-deep font-semibold rounded-sm hover:bg-deep hover:text-lightest transition ease-in duration-200 transform "
+            class="py-2 px-4  bg-primaryText text-deep font-semibold rounded-sm hover:bg-deep hover:text-primaryText transition ease-in duration-200 transform "
             >Send</button>
             </div>
            

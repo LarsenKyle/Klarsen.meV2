@@ -15,12 +15,12 @@
       <div class="w-full m-auto mt-4 flex justify-center">
         <a  target="_blank" href="https://www.schooleyicetackle.com/">
     <button
-        class=" py-2 px-4 mr-2 bg-lightest text-deep font-semibold rounded-sm hover:bg-deep hover:text-lightest transition ease-in duration-200 transform "
+        class=" py-2 px-4 mr-2 bg-primaryText text-deep font-semibold rounded-sm hover:bg-deep hover:text-primaryText transition ease-in duration-200 transform "
       >Visit Site</button>
       </a>
       <a target="_blank" href="https://github.com/LarsenKyle/JAM-Schooley">
     <button
-        class="py-2 px-4 ml-2 bg-lightest text-deep font-semibold rounded-sm hover:bg-deep hover:text-lightest transition ease-in duration-200 transform "
+        class="py-2 px-4 ml-2 bg-primaryText text-deep font-semibold rounded-sm hover:bg-deep hover:text-primaryText transition ease-in duration-200 transform "
       >View Code</button>
       </a>
       </div>
@@ -41,12 +41,12 @@
       <div class="w-full m-auto mt-4 flex justify-center reverse">
         <a target="_blank" href="https://github.com/LarsenKyle/WorlandYoga">
           <button
-            class="py-2 px-4 ml-2 bg-lightest text-deep font-semibold rounded-sm hover:bg-deep hover:text-lightest transition ease-in duration-200 transform "
+            class="py-2 px-4 ml-2 bg-primaryText text-deep font-semibold rounded-sm hover:bg-deep hover:text-primaryText transition ease-in duration-200 transform "
           >View Code</button>
         </a>
         <a target="_blank" href="https://geoapp-a5e8c.firebaseapp.com/">
          <button
-          class="py-2 px-4 mr-2 bg-lightest text-deep font-semibold rounded-sm hover:bg-deep hover:text-lightest transition ease-in duration-200 transform "
+          class="py-2 px-4 mr-2 bg-primaryText text-deep font-semibold rounded-sm hover:bg-deep hover:text-primaryText transition ease-in duration-200 transform "
         >Visit Site</button>
         </a>
       </div>
@@ -66,11 +66,11 @@
       <p class="text-primaryText text-left text-lg px-4">This web-application helps climbing gyms manage their route-setting programs to ensure member needs are being met. It’s built with Nuxt.js and uses server side rendering to ensure lightning quick load times.</p>
       <div class="w-full m-auto mt-4 flex justify-center">
          <button
-          class="py-2 px-6 mr-2 bg-lightest focus:outline-none opacity-50  text-deep font-semibold rounded-sm  "
+          class="py-2 px-6 mr-2 bg-primaryText focus:outline-none opacity-50  text-deep font-semibold rounded-sm  "
         >Visit Site</button>
         <a target="_blank" href="https://github.com/LarsenKyle/Project-Set">
           <button
-            class="py-2 px-6 ml-2 bg-lightest text-deep font-semibold rounded-sm hover:bg-deep hover:text-lightest transition ease-in duration-200 transform "
+            class="py-2 px-6 ml-2 bg-primaryText text-deep font-semibold rounded-sm hover:bg-deep hover:text-primaryText transition ease-in duration-200 transform "
           >View Code</button>
         </a>
       </div>
