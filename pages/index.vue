@@ -59,7 +59,7 @@ export default {
     z-index: 1;
     width: calc(100% + var(--border-width) * 2);
     height: calc(100% + var(--border-width) * 2);
-    background: linear-gradient(90deg, rgba(11,0,17,1) 0%, rgba(164,173,211,1) 100%);
+    background: linear-gradient(90deg,rgba(164,173,211,1) 0%, rgba(11,0,17,1) 65%);
     background-size: 300% 300%;
     background-position: 0 50%;
     border-radius: calc(2 * var(--border-width));
