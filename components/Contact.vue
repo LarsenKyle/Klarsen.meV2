@@ -30,7 +30,7 @@
         </div>
     </form>
     <div class="copy text-center m-auto mt-8 text-lightest">
-    <a  target="_blank" href="https://github.com/LarsenKyle/klarsen.me">
+    <a  rel="noopener" target="_blank" href="https://github.com/LarsenKyle/klarsen.me">
         <div>Designed &amp; Developed By Kyle Larsen</div>
         <div>&copy; 2021, All rights reserved</div>
         <div class="flex justify-center mt-2"><svg xmlns="http://www.w3.org/2000/svg" width="31.5" height="31.5" viewBox="0 0 31.5 31.5">

@@ -13,12 +13,12 @@
       </div>
       <p class="text-primaryText text-lg px-4">This northern Michigan ice fishing manufacturer’s website needed a redesign.  Built with Nuxt.js their new E-commerce site combines the speed of server side rendering and JAM-stack hosting too ensure nobody is left waiting while preparing for ice fishing season.</p>
       <div class="w-full m-auto mt-4 flex justify-center">
-        <a  target="_blank" href="https://www.schooleyicetackle.com/">
+        <a rel="noopener"  target="_blank" href="https://www.schooleyicetackle.com/">
     <button
         class=" py-2 px-4 mr-2 bg-primaryText text-deep font-semibold rounded-sm hover:bg-deep hover:text-primaryText transition ease-in duration-200 transform "
       >Visit Site</button>
       </a>
-      <a target="_blank" href="https://github.com/LarsenKyle/JAM-Schooley">
+      <a rel="noopener" target="_blank" href="https://github.com/LarsenKyle/JAM-Schooley">
     <button
         class="py-2 px-4 ml-2 bg-primaryText text-deep font-semibold rounded-sm hover:bg-deep hover:text-primaryText transition ease-in duration-200 transform "
       >View Code</button>
@@ -39,12 +39,12 @@
       </div>
       <p class="text-primaryText text-left text-lg px-4">A yoga studio in Worland WY was looking for a way to track class attendance and generate monthly reports. It is straightforward and easy to use, even for those who are not so technologically inclined.</p>
       <div class="w-full m-auto mt-4 flex justify-center reverse">
-        <a target="_blank" href="https://github.com/LarsenKyle/WorlandYoga">
+        <a rel="noopener" target="_blank" href="https://github.com/LarsenKyle/WorlandYoga">
           <button
             class="py-2 px-4 ml-2 bg-primaryText text-deep font-semibold rounded-sm hover:bg-deep hover:text-primaryText transition ease-in duration-200 transform "
           >View Code</button>
         </a>
-        <a target="_blank" href="https://geoapp-a5e8c.firebaseapp.com/">
+        <a rel="noopener" target="_blank" href="https://geoapp-a5e8c.firebaseapp.com/">
          <button
           class="py-2 px-4 mr-2 bg-primaryText text-deep font-semibold rounded-sm hover:bg-deep hover:text-primaryText transition ease-in duration-200 transform "
         >Visit Site</button>
@@ -68,7 +68,7 @@
          <button
           class="py-2 px-6 mr-2 bg-primaryText focus:outline-none opacity-50  text-deep font-semibold rounded-sm  "
         >Visit Site</button>
-        <a target="_blank" href="https://github.com/LarsenKyle/Project-Set">
+        <a rel="noopener" target="_blank" href="https://github.com/LarsenKyle/Project-Set">
           <button
             class="py-2 px-6 ml-2 bg-primaryText text-deep font-semibold rounded-sm hover:bg-deep hover:text-primaryText transition ease-in duration-200 transform "
           >View Code</button>
