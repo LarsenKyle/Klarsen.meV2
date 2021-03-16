@@ -36,7 +36,7 @@ export default {
       this.start()
       setTimeout(()=> {
         this.finish()
-      },3000)
+      },1400)
     }
 }
 </script>
