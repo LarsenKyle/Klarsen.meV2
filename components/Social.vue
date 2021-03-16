@@ -17,10 +17,12 @@ export default {
 <style>
 .wide{
     width: 1px;
+    
+}
+.filter{
+    transition: all ease-in-out .2s;
 }
 .filter:hover{
-    filter: invert(38%) sepia(7%) saturate(4080%) hue-rotate(210deg) brightness(94%) contrast(88%);
-    opacity: 0.6;
-    transition: 0.5s;
+   transform: scale(1.1); 
 }
 </style>

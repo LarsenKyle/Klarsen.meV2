@@ -14,15 +14,15 @@
       <img class="w-10 m-5 relative z-10" src="~/assets/images/menu.svg"  alt="Menu Button">
     </button>  
     <transition name="fade">
-      <div v-if="showMenu" class="absolute z-10 h-screen bg-deep flex-col  w-screen text-primaryText text-center text-3xl">
+      <div v-if="showMenu" class="absolute z-30 h-screen bg-deep flex-col  w-screen text-primaryText text-center text-3xl">
         <button class="focus:outline-none" @click="showMenu = !showMenu" >
           <img class="mt-16 w-6" src="~/assets/images/close.svg" alt="close button">
         </button>
         <ul>
-          <a href="#about" ><li class="mt-16 h-24  place-self-center" ><span class="text-lightest"> 00. </span>About</li></a>
-          <a href="" ><li class="h-24" > <span class="text-lightest"> 01. </span>Work</li></a>
-          <a href="" ><li class="h-24" ><span class="text-lightest"> 02. </span>Contact</li></a>
-          <a href="" ><li class="h-24" ><span class="text-lightest"> 03. </span>Resume</li></a>
+          <a href="#about" @click="showMenu = false" ><li class="mt-16 h-24  place-self-center" ><span class="text-lightest"> 00. </span>About</li></a>
+          <a href="#work" @click="showMenu = false" ><li class="h-24" > <span class="text-lightest"> 01. </span>Work</li></a>
+          <a href="#contact" @click="showMenu = false" ><li class="h-24" ><span class="text-lightest"> 02. </span>Contact</li></a>
+          <a href="/resume.pdf" @click="showMenu = false" ><li class="h-24" ><span class="text-lightest"> 03. </span>Resume</li></a>
         </ul>
         <img class="w-14 m-auto mt-3" src="~/assets/images/logo.svg" alt="Logo of small circles with a k in the middle">
       </div>
@@ -66,7 +66,7 @@ methods: {
 
 <style>
 .fade-enter-active, .fade-leave-active {
-  transition: opacity .5s;
+  transition: opacity .7s;
 }
 .fade-enter, .fade-leave-to /* .fade-leave-active below version 2.1.8 */ {
   opacity: 0;
