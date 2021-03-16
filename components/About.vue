@@ -6,7 +6,7 @@
     <div class="m-auto w-10/12 my-14 text-primaryText relative md:w-4/12  lg:ml-1 max" >
         <h2 class="text-3xl text-lightest mono-font mb-6">What I do...</h2>
         <p class="text-lg">I'm Kyle Larsen, and I'm based in Kalamzoo Michigan. As a freelance developer I enjoy creating clean, fast, simple to use websites and web applications. Delivering a great user experience is my primary goal.
-            JAM-stack and serverless architecture are my go to tools, they allow me to developer powerful applications quickly and skillfully. 
+            JAM-stack and serverless architecture are my go to tools, they allow me to develop powerful applications quickly and skillfully. 
         </p>  
     </div>
  </div>
