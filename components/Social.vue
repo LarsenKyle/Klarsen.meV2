@@ -1,6 +1,6 @@
 <template>
   <div
-    class="flex relative justify-center m-auto lg:flex-col lg:fixed lg:bottom-0 lg:left-14 z-30"
+    class="flex relative justify-center m-auto lg:flex-col lg:fixed lg:bottom-0 lg:left-14 z-10"
   >
     <a
       class="m-1 lg:ml-1 ml-0"
