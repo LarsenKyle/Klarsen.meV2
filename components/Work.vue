@@ -1,12 +1,13 @@
 <template>
-<section id="work">
+<section id="work " class="mt-32">
+  <h3 class="mono-font text-center text-lightest text-4xl mb-16" >A selection of projects</h3>
   <!--Schooley Ice Tackle  -->
-  <div class="w-11/12 lg:w-9/12 mt-32 m-auto work-grid" >
+  <div class="w-11/12 lg:w-9/12  m-auto work-grid" >
     <div class="w-full">
       <img src="~/assets/images/dev/schooleyshow.png" alt="showcase of schooley ice tackle">
     </div>
     <div >
-      <h3 class="text-4xl text-lightest text-center">Schooley Ice Tackle</h3>
+      <h3 class="text-3xl text-lightest text-center">Schooley Ice Tackle</h3>
       <div class="flex justify-center ">
         <p class="bg-deep bg-gradient-to-r from-deep  to-dark text-primaryText p-1 rounded-xl w-32 text-center m-2">E-commerce</p>
         <p class="bg-deep bg-gradient-to-r from-deep  to-dark text-primaryText p-1 rounded-xl w-32 text-center m-2">Responsive</p>
@@ -32,7 +33,7 @@
       <img src="~/assets/images/dev/yogashow.png" alt="showcase of schooley ice tackle">
     </div>
     <div >
-      <h3 class="text-4xl text-lightest text-center">Worland Yoga App</h3>
+      <h3 class="text-3xl text-lightest text-center">Worland Yoga App</h3>
       <div class="flex justify-center ">
         <p class="bg-deep  bg-gradient-to-r from-deep  to-dark text-primaryText p-1 rounded-xl w-32 text-center m-2">Web-Application</p>
         <p class="bg-deep bg-gradient-to-r from-deep  to-dark text-primaryText p-1 rounded-xl w-32 text-center m-2">Serverless</p>
@@ -58,7 +59,7 @@
       <img src="~/assets/images/dev/projectset.png" alt="showcase of schooley ice tackle">
     </div>
     <div >
-      <h3 class="text-4xl text-lightest text-center">Project Set</h3>
+      <h3 class="text-3xl text-lightest text-center">Project Set</h3>
       <div class="flex justify-center ">
         <p class="bg-deep  bg-gradient-to-r from-deep  to-dark text-primaryText p-1 rounded-xl w-32 text-center m-2">JAM-Stack</p>
         <p class="bg-deep bg-gradient-to-r from-deep  to-dark text-primaryText p-1 rounded-xl w-32 text-center m-2">Design</p>

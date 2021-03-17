@@ -1,6 +1,6 @@
 <template>
 <section id="contact" class="mt-32 pb-6">
-     <h3 class="mono-font text-center text-lightest text-3xl mb-6" >Get in touch!</h3>
+     <h3 class="mono-font text-center text-lightest text-4xl mb-6" >Get in touch!</h3>
     <form action="https://formspree.io/krlars87@gmail.com" method="POST" class="w-10/12 max-w-lg m-auto text-primaryText">
         <div class="flex flex-wrap -mx-3 mb-6">
             <div class="w-full px-3">

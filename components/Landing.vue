@@ -1,9 +1,9 @@
 <template>
   <div id="home"  class="hero-bg h-screen centered">
-    <div class="text-center mb-12 text-lightest text-2xl md:text-3xl">
+    <div class="text-center mb-12 text-lightest text-xl md:text-3xl">
       <h1 class="mb-12" >I'm Kyle</h1>
       <div  class="flex mb-4">
-          <h2 class="relative mr-36">I create <transition name="fade"> <span  :key="text" class=" px-4  absolute  text-light">{{text}}</span></transition></h2>
+          <h2 class="relative mr-32">I create <transition name="fade"> <span  :key="text" class=" px-4  absolute  text-light">{{text}}</span></transition></h2>
       </div>
       <Social/>
     </div>
