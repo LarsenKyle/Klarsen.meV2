@@ -1,6 +1,6 @@
-# kyle-larsen
+# Kyle Larsen
 
-## Build Setup
+## Front-end Developer, Kalamzoo Michigan
 
 ```bash
 # install dependencies
