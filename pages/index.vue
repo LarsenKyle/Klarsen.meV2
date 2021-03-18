@@ -1,9 +1,9 @@
 <template>
   <div class="bg-dark overflow-hidden">
     <transition name="fade">
-    <div v-if="loading" class="centered h-screen w-screen gradient-border ">
-      <img class="w-12 gradient-border" src="~/assets/images/logo.svg" alt="Logo of small circles with a k in the middle">
-    </div>
+      <div v-if="loading" class="centered h-screen w-screen gradient-border ">
+        <img class="w-12 gradient-border" src="~/assets/images/logo.svg" alt="Logo of small circles with a k in the middle">
+      </div>
     </transition>
     <transition name="fade">
     <div v-if="!loading">
