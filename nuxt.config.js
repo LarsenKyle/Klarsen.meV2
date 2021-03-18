@@ -10,6 +10,11 @@ export default {
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
+      { property:"og:url", content:'https://www.klarsen.me/'},
+      { property:"og:type", content:'website'},
+      { property:"og:title", content:"I'm Kyle Larsen, I Create!"},
+      { property:"og:description", content:"As a freelance developer I enjoy creating clean, fast, simple to use websites and web applications."},
+      { property:"og:image", content:"/ogl.jpg"},
       { hid: 'description', name: 'description', content: 'Developer portfolio of Kyle Larsen' }
     ],
     link: [
