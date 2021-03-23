@@ -1,5 +1,5 @@
 <template>
-<section id="work " class="mt-32">
+<div id="work" class="mt-32">
   <h3 class="mono-font text-center text-lightest text-4xl mb-16" >A selection of projects</h3>
   <!--Schooley Ice Tackle  -->
   <div class="w-11/12 lg:w-9/12  m-auto work-grid" >
@@ -77,9 +77,7 @@
       </div>
     </div>
   </div>
-  
-  
-  </section>
+  </div>
 </template>
 
 <script>

@@ -5,7 +5,7 @@
     <!-- Desktop Nav -->
     <div  class="ml-auto mt-8 mr-12 hidden text-lg text-primaryText md:flex relative z-30 ">
     <a href="#about">   <p class="w-32"> <span class="text-lightest" >00.</span>About</p></a>
-      <p class="w-32"> <a href="#work"> <span class="text-lightest" >01.</span>Work</a></p>
+    <a href="#work">  <p class="w-32">  <span class="text-lightest" >01.</span>Work</p></a>
       <p class="w-32"> <a href="#contact"> <span class="text-lightest" >02.</span>Contact</a></p>
       <p class="w-32"> <a target="_blank" href="/resume.pdf"> <span class="text-lightest" >03.</span>Resume</a></p>
     </div>
